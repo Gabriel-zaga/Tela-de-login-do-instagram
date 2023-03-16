@@ -1,0 +1,341 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container_images img{
+  max-width: 400px;
+  height: 570px;
+  position: relative;
+  left: 220px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+    max-width: 1700px;
+    margin-top: 50px;
+   
+}
+.container_form{
+    box-shadow: 0 0 2px 1px #dbdbdb;
+    max-width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 240px;
+    margin-top: 10px;
+    
+}
+.container_form img{
+    width: 180px;
+    height: 50px;
+    position: relative;
+    top:10px;
+}
+.container_form form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    position: relative;
+    top: 20px;
+
+    
+}
+
+form input{
+    padding: 10px;
+    width: 280px;
+    
+}
+input[type="text"]{
+    box-shadow: 0 0 2px 1px #dbdbdb;
+    border: none;
+    border-radius: 2px;
+    outline:  none;
+    color: #747474;
+  
+}
+/*input[type="text"]:hover {
+    border: 1px solid yellow;
+  }*/
+input[type="button"]{
+    background-color: #4bb4f8;
+    color:#ffffff;
+    border: none;
+    border-radius: 7px;
+    font-weight: 600;
+    position: relative;
+    top:7px;
+}
+.or_options{
+ display: flex;
+ gap: 1rem;
+ color: #7c7c7c; 
+ position: relative;
+ top:40px;
+}
+
+  .with__facebook{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 50px;
+  }
+  .btn img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top:3px;
+  }
+  .btn{
+    outline: none;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    color: #385194;
+    font-weight: 600;
+  }
+  .password{
+    color: #00376b;
+    text-decoration: none;
+    font-size: 13px;
+    position: relative;
+    top:75px;
+  }
+.account{
+    position: relative;
+    top:100px;
+    box-shadow: 0 0 2px 1px #dbdbdb;
+    width: 350px;
+    height: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.account a{
+    color: #2f95f6;
+    text-decoration: #2f95f6;
+}
+
+.options__downloads{
+  position: relative;
+  top: 450px;
+  left: -270px;
+  max-width: 600px;
+  display: flex;
+}
+.options__downloads p{
+ 
+}
+.playstore{
+  width: 120px;
+  height: 54px;
+  position: relative;
+  top:10px;
+  left: -30px;
+ 
+  
+}
+.microsoft{
+  width: 120px;
+  height: 40px;
+  position: relative;
+  top:16px;
+  left: -25px;
+ 
+}
+section p{
+  position: relative;
+  left: -250px;
+  top: 450px;
+  display: inline-block;
+  width: 150px;
+}
+@media only screen and (max-width: 700px) {
+  /* suas alterações aqui */
+  body{
+    background-color: white;
+    overflow: hidden;
+  
+  }
+  
+.container_images img{
+   display: none;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+  max-width: 700px;
+  margin-top: 50px;
+
+}
+.container_form{
+  box-shadow: 0 0 2px 1px white;
+  max-width: 350px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+  position: absolute;
+  top: 30%;
+  left: -65%;
+  transform: translate(-50%, -50%);
+  
+}
+.container_form img{
+  width: 150px;
+  height: 40px;
+  position: relative;
+  top:-40px;
+}
+.container_form form{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  position: relative;
+  top: 70px;
+
+  
+}
+form input{
+  padding: 10px;
+  width: 280px;
+  
+}
+input[type="text"]{
+  box-shadow: 0 0 2px 1px #dbdbdb;
+  border: none;
+  border-radius: 2px;
+  outline:  none;
+  color: #747474;
+
+}
+input[type="button"]{
+  background-color: #4bb4f8;
+  color:#ffffff;
+  border: none;
+  border-radius: 7px;
+  font-weight: 600;
+  position: relative;
+  top:50px;
+}
+.or_options{
+display: flex;
+gap: 1rem;
+color: #7c7c7c; 
+position: relative;
+top:-85px;
+}
+
+.one{
+  height: 1px;
+  width: 110px;
+  position: relative;
+  top:5px;
+  background-color: #dbdbdb;
+}
+
+.with__facebook{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: -150px;
+}
+.btn img{
+ display: none;
+}
+.btn{
+  outline: none;
+  border: none;
+  background-color: #3f6ce7;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+  padding: 7px 70px;
+  border-radius: 7px;
+}
+.password{
+  color: #2f95f6;
+  text-decoration: none;
+  font-size: 15px;
+  position: relative;
+  top:-7px;
+  left: 70px;
+  font-weight: 500;
+}
+.account{
+
+  position: relative;
+  top:60px;
+  box-shadow: 0 0 2px 1px white;
+  width: 350px;
+  height: 60px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.account a{
+  color: #2f95f6;
+  text-decoration: #2f95f6;
+}
+
+.options__downloads{
+position: relative;
+top: 450px;
+max-width: 600px;
+display: flex;
+}
+.playstore{
+width: 120px;
+height: 54px;
+position: relative;
+top:10px;
+left: -30px;
+
+
+}
+.microsoft{
+width: 120px;
+height: 40px;
+position: relative;
+top:16px;
+left: -25px;
+
+}
+section p{
+position: relative;
+left: -250px;
+top: 450px;
+display: inline-block;
+width: 150px;
+}
+
+}
+
+@media (max-width: 900px)
+{
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container_images img{
+       display:none;
+      }
+      .container{
+        position: absolute;
+        top: 30%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+    }
+}
